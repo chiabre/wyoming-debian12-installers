@@ -10,10 +10,9 @@ SERVICE_PORT="10400"
 SERVICE_NAME="wyoming-onnx-asr"
 
 # Environment Variables for CPU deployment
-# SET THESE before running!
-ONNX_ASR_MODEL="REPLACE_ME_WITH_YOUR_MODEL"       # Example: "onnx-community/whisper-tiny.en"
-ONNX_ASR_LANGUAGE="REPLACE_ME_WITH_YOUR_LANGUAGE" # Example: "en"
-ONNX_ASR_PROVIDER="CPUExecutionProvider"          # Crucial for CPU operation
+ONNX_ASR_MODEL="nemo-parakeet-tdt-0.6b-v2"       
+ONNX_ASR_LANGUAGE="en"
+ONNX_ASR_PROVIDER="CPUExecutionProvider"
 
 # --- PRE-REQUISITES & SYSTEM SETUP ---
 echo "--- Step 1: Updating system and installing prerequisites ---"
