@@ -1,5 +1,5 @@
 #!/bin/bash
-# Description: Universal interactive installer for Wyoming ONNX ASR Service.
+# Description: Interactive installer for Wyoming ONNX ASR Service on Debian 12 Proxmox LXC.
 # Configures execution mode (CPU, CUDA, or TENSORRT) and language based on user input.
 
 # ==============================================================================
